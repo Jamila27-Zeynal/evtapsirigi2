@@ -1,0 +1,685 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+   
+
+}
+
+.container {
+    max-width: 1840px;
+    padding: 0 50px;
+    margin: 0 auto;
+
+
+}
+
+.row {
+    background-color: #FF9500;
+    color: #FFFFFF;
+    height: 55px;
+    gap: 23px;
+    border-radius: 8px;
+    padding: 14px 0 px 14px 0;
+    font-weight: 400px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.row h4 {
+    padding: 15px;
+}
+
+.logo {
+    width: 54px;
+    height: 54px;
+    margin-left: 40px;
+    margin-top: 7px;
+    gap: 50px;
+}
+
+.boxer2 {
+
+    height: 99px;
+    gap: 26px;
+    display: flex;
+    justify-content: space-between;
+    border:
+        0px, 0px, 1px, 0px;
+    color:
+        #262626;
+        background-color: 
+        #F1F1F3;
+
+
+}
+
+.box {
+    position: absolute;
+    align-items: center;
+    padding: 20px;
+    margin-left: 70px;
+    display: flex;
+    gap: 26px;
+    justify-content: space-between;
+    margin-top: 25px;
+    transform: translateX(-90%);
+    color:
+        #262626;
+}
+
+button:nth-child(2) {
+    background-color: #FF9500;
+    color: #fff;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 15px;
+
+
+}
+
+button:nth-child(1) {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: grey;
+}
+
+
+.card {
+    width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+
+    top:
+        -125px;
+    background-size: cover;
+    margin-top: 20px;
+    gap: 10px
+}
+
+.card .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.drop {
+    width: 640px;
+    background-color: #fff;
+    padding: 45px 40px;
+
+}
+
+.text h3 {
+    font-size: 32px;
+
+    margin-bottom: 20px;
+    font-weight: 300px;
+    color:
+        #1A1A1A;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.icon button:nth-child(1) {
+    background-color: #FF9500;
+    color: #fff;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.icon button:nth-child(2) {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.xana {
+    background-color:
+        #FCFCFD;
+    color:
+        #FCFCFD;
+    height: 55px;
+    border: 1px solid #F1F1F3;
+    gap: 23px;
+    border-radius: 8px;
+    padding: 24px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15px;
+    width: 1250px;
+}
+
+.luxry img {
+    background-repeat: no-repeat;
+}
+
+
+.section2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1279px;
+    height: 1000px;
+    gap: 70px;
+    padding: 80px;
+}
+
+.benefit {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    height: 200px;
+    font-size: 20px;
+}
+
+.column {
+
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.column .task1:nth-child(1) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+
+}
+
+.column .task2:nth-child(2) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.column .task3:nth-child(3) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.column .task4:nth-child(4) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.column .task5:nth-child(5) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.column .task6:nth-child(6) {
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.column h1 {
+    font-size: 60px;
+    margin-left: 90px;
+}
+
+.section3 {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1900;
+    height: 1000px;
+    gap: 70px;
+    padding: 80px;
+    background-color: #FFFFFF;
+    height:
+        1311px;
+
+
+}
+
+.cours {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    height: 200px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+
+}
+
+.item {
+
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: #FFFFFF;
+    width: 1200px;
+}
+
+.section4 {
+    padding-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1900;
+    height: 1000px;
+    gap: 70px;
+    padding: 60px;
+    background-color: #FFFFFF;
+}
+
+.column2 {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    height: 200px;
+    font-size: 20px;
+
+}
+
+.clas {
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: #FFFFFF;
+    width: 1200px;
+
+
+}
+
+.content1:nth-child(1) {
+    border-radius: 5px;
+    background-color: white;
+    width: 450px;
+    height: 100px;
+    padding: 70px;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./Image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    border: 2px solid grey;
+
+}
+
+.content2:nth-child(2) {
+    border-radius: 5px;
+    background-color: white;
+    width: 450px;
+    height: 100px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+    background-image: url(./Image\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+}
+
+.content3:nth-child(3) {
+    border-radius: 5px;
+    background-color: white;
+    width: 450px;
+    height: 100px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+    background-image: url(./Image\ \(8\).png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+}
+
+.content4:last-child {
+    border-radius: 5px;
+    background-color: white;
+    width: 450px;
+    height: 100px;
+    padding: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+    background-image: url(./Image\ \(9\).png);
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+}
+
+.Pircing {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1279px;
+    height: 1000px;
+    gap: 70px;
+    padding: 80px;
+    padding-bottom: 20px;
+
+}
+
+
+.Metn {
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.calor {
+    float: left;
+    content: "";
+    grid-template-columns: repeat(2);
+    width: 50%;
+    display: flex;
+    width: 900px;
+    height: 700px;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.calor .time {
+    display: grid;
+    border: 1px solid grey;
+    width: 526px;
+
+}
+
+.calor .data {
+    display: grid;
+    border: 1px solid grey;
+    width: 526px;
+
+
+}
+
+.calor h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.calor p {
+    font-size: 20px;
+}
+
+.containers {
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.rovs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 230px;
+
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+}
+
+.footer {
+    background: #1A1A1A;
+    padding: 0 15px;
+}
+
+.col {
+    width: 25px;
+    padding: 0 15px;
+    gap: 30px;
+    color: #fff;
+}
+
+.col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #FF9500;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.col ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+
+.col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+/*Mobile Device*/
+@media screen and(max-width:770px) {
+    .boxer2 {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .card {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+
+
+    }
+
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        text-decoration: center;
+    }
+
+    nav .box {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #F1F1F3;
+    }
+
+    .box li {
+        margin: 30px auto;
+
+    }
+
+    .section2 {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .section3 {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+        .section4 {
+            justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        .clas {
+                    justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            width: 100%;
+            height: 100vh;   
+         }
+
+    .drop {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .xana {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .luxry {
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .calor{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .Metn{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .column{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .benefit{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .task3{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .Pircing{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .task6{
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+}
